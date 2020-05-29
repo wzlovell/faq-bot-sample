@@ -27,7 +27,7 @@ module.exports = class SkillHandlePizzaOrder {
 
                         bot.change_message("pizza", {
                             type: "text",
-                            text: "恐れ入りますが当店ではマルグリータかマリナーラしかございません。どちらになさいますか？"
+                            text: "恐れ入りますが当店ではマルグリータかマリナーラしかございません。 どちらになさいますか？"
                         });
                     } else {
                         bot.queue({
